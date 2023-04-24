@@ -1,20 +1,50 @@
-
 <html>
 <head>
-	<title>Lab_02</title>
+	<title>Lab_03</title>
+	<style>
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		.sidebar {
+			float: left;
+			width: 200px;
+			background-color: #f1f1f1;
+			padding: 10px;
+		}
+		
+		.content {
+			margin-left: 220px;
+			padding: 10px;
+		}
+		
+		.footer {
+			clear: both;
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	<h1>Сайт новин</h1>
-	
-	<h2>Список новин:</h2>
+	<div class="header">
+		<h1>Сайт новин</h1>
+		<p><nav>
 	<ul>
-		<li>Спорт</li>
-		<li>Політика</li>
-		<li>Економіка</li>
+		<li><a href="#about">Про нас</a></li>
+		<li><a href="#services">Послуги</a></li>
+		<li><a href="#contact">Контакти</a></li>
 	</ul>
+</nav></p>
+	</div>
 	
-	<h2>Таблиця курсу валют:</h2>
-	<table>
+	<div class="sidebar">
+		<h2>Таблиця курсу валют:</h2>
+		<p><table>
 		<tr>
 			<th>Курс</th>
 			<th>Валюта 1</th>
@@ -35,12 +65,21 @@
 			<td>1 PLN</td>
 			<td>8,79 UAH</td>
 		</tr>
-	</table>
+	</table></p>
+	</div>
 	
-	<h2>Таблиця АПЛ після 31 туру:</h2>
-	<img src="https://img.tsn.ua/cached/249/tsn-28424b79aaed18622b3ebc9e28e9f35e/thumbs/608xX/e7/4e/6cc9e3f8fcbe791436906f27205d4ee7.png" alt="Випадкове зображення">
+	<div class="content">
+		<h2>Новини</h2>
+<h2>Таблиця АПЛ після 31 туру:</h2>
+		<p><img src="https://img.tsn.ua/cached/249/tsn-28424b79aaed18622b3ebc9e28e9f35e/thumbs/608xX/e7/4e/6cc9e3f8fcbe791436906f27205d4ee7.png" alt="Випадкове зображення">
 	
 	<h2>Бойові втрати противника:</h2>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/eBykTXUie1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body></p>
+	</div>
+	
+	<div class="footer">
+		<p>© 2023, Усі права захищено</p>
+	</div>
 </body>
 </html>
